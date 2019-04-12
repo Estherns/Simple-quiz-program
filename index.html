@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Going To RC?</title>
+<link href ="style.css" rel ="stylesheet">
+</head>
+<body>
+<h1> Welcome to RC retreat self-evaluation quiz</h1>
+
+<form id = "quiz" name = "quiz">
+<h2>Here is a simple quiz to guide you,and eventually know if RC is for you or not.</h2>
+<p class = "questions">Do you enjoy programming?</p>
+<input type = "radio" id = "mc" name = "question1" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question1" value = "Somehow"> Somehow<br>
+<input type = "radio" id = "mc" name = "question1" value = "No"> No<br> 
+
+<p class = "questions">How independent are you to work on yourself?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Average"> Average<br>
+<input type = "radio" id = "mc" name = "question2" value = "Very independent"> Very indipendent<br>
+<input type = "radio" id = "mc" name = "question2" value = "Not sure"> Not sure<br>
+
+<p class = "questions">Do you want to work on improving yourself with a dedicated community?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Oh, yes I like learning"> Oh, yes I like learning<br>
+<input type = "radio" id = "mc" name = "question3" value = "I am a code guru already"> I am a code guru already!<br>
+<input type = "radio" id = "mc" name = "question3" value = "I don't like communities"> I don't like communities<br>
+
+<p class = "questions">Are you self-directed?</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "Somehow"> Somehow<br>
+<input type = "radio" id = "mc" name = "question4" value = "Absolutely yes"> Absolutely yes<br>
+<input type = "radio" id = "mc" name = "question4" value = "I need supervision"> I need supervision<br>
+
+<p class = "questions">How sharp are you?</p>
+
+<input type = "radio" id = "mc" name = "question5" value = "Average"> Average<br>
+<input type = "radio" id = "mc" name = "question5" value = "Very sharp"> Very sharp<br>
+<input type = "radio" id = "mc" name = "question5" value = "Not sure"> Not sure<br>
+
+<p class = "questions">Are you intellectually curious?</p>
+
+<input type = "radio" id = "mc" name = "question6" value = "No"> No<br>
+<input type = "radio" id = "mc" name = "question6" value = "Somehow"> Somehow<br>
+<input type = "radio" id = "mc" name = "question6" value = "Yes I am"> Yes I am<br>
+
+<p class = "questions">Are you friendly?</p>
+
+<input type = "radio" id = "mc" name = "question7" value = "Not friendly"> Not friendly<br>
+<input type = "radio" id = "mc" name = "question7" value = "Not sure"> Not sure<br>
+<input type = "radio" id = "mc" name = "question7" value = "Very friendly"> Very friendly<br>
+
+<input id = "button" type = "button" value = "Evaluate me!" onclick = "check();">
+
+
+</form>
+
+
+
+<div id = "results">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+<script src ="script.js" > </script>
+</body>
+</html>
